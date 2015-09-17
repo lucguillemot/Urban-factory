@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'cmu_typewriter_textregular';
+    src: url('font/cmuntt-webfont.eot');
+    src: url('font/cmuntt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cmuntt-webfont.woff2') format('woff2'),
+         url('font/cmuntt-webfont.woff') format('woff'),
+         url('font/cmuntt-webfont.ttf') format('truetype'),
+         url('font/cmuntt-webfont.svg#cmu_typewriter_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cmu_typewriter_textbold';
+    src: url('font/cmuntb-webfont.eot');
+    src: url('font/cmuntb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cmuntb-webfont.woff2') format('woff2'),
+         url('font/cmuntb-webfont.woff') format('woff'),
+         url('font/cmuntb-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cmu_serifbold';
+    src: url('font/cmunbx-webfont.eot');
+    src: url('font/cmunbx-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cmunbx-webfont.woff2') format('woff2'),
+         url('font/cmunbx-webfont.woff') format('woff'),
+         url('font/cmunbx-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cmu_serifroman';
+    src: url('font/cmunrm-webfont.eot');
+    src: url('font/cmunrm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cmunrm-webfont.woff2') format('woff2'),
+         url('font/cmunrm-webfont.woff') format('woff'),
+         url('font/cmunrm-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: rgba(0, 30, 64, .1);
+ 	color:rgba(0, 30, 64, 1);
+	font-family:'cmu_typewriter_textregular';
+	font-size: 30px;
+}
+svg {
+/* 	outline: 1px solid black; */
+	position: relative;
+}
+#map {
+/* 	outline: 1px solid blue; */
+
+}
+
+.title {
+    font-size: 30px;
+}
+.subtitle {
+    font-size: 18px;
+    text-wrap:normal;
+}
+.infos text{
+		fill:rgba(0, 30, 64, 1);
+}
+.country_name > text {
+	font-size: 15px:
+}
+.chart {
+/* 	outline: 1px solid red; */
+}
+.line {
+	fill:none;
+	stroke-width:1px;
+	stroke:rgba(135, 24, 28, .9);
+}
+.countries {
+	fill: rgba(0, 30, 64, .001);
+	stroke: rgba(0, 30, 64, .2);
+}
+
+.city {
+/* 	fill: #FEF3CD; */
+	fill: rgba(210, 80, 89, .5);
+	stroke: rgba(135, 24, 28, .9);
+	cursor: crosshair;
+}
+/*
+.city:hover {
+	stroke: rgba(250, 230, 230, 1);
+	stroke-width: 7px;
+	fill: rgba(0, 30, 64, .9);
+}
+*/
+.axis path {
+	fill:none;
+	stroke:rgba(0, 30, 64, 1);
+}
+.axis {
+	font-size:8pt;
+}
+.tick > line {
+	fill:rgba(0, 30, 64, 1);
+}
+.rect_allcities {
+	fill: rgba(0, 30, 64, 1);
+}
+.tick.major > text {fill:rgba(0, 30, 64, 1); text-anchor:middle; dominant-baseline:central;}
+.tick.major > text:hover {
+	font-size: 20px;
+	font-family: 'cmu_typewriter_textbold';
+	cursor: crosshair;
+}
+
+/* SOURCES COLORS */
+.CHD {
+	fill:rgba(0, 30, 64, 1);
+}
+.IHS {
+	fill:rgba(213, 110, 78, 1);
+}
+.BAI {
+	fill:rgba(72, 64, 135, 1);
+}
