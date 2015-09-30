@@ -2,6 +2,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/main.css" />
 <body>
+<script src="js/jquery-1.11.3.js"></script>
 <script src="js/d3.min.js"></script>
 <script src="js/topojson.js"></script>
 <script src="js/d3.geo.projection.min.js"></script>
@@ -9,88 +10,110 @@
 
 <script>
 
-	// Layout dimensions
+	// Layout dimensions, variables and functions ///////////////////////////////////
 	var svg_dimensions = {width: 1200, height: 600},
 		margins = {top: 10, right: 10, bottom: 20, left: 10},
 		map_dimensions = {width: (svg_dimensions.width)*0.6, height: (svg_dimensions.height*0.9)}
 		chart_dimensions = {width: (svg_dimensions.width), height: (svg_dimensions.height*0.9), rect_width:4},
 		infos_dimensions = {width: (svg_dimensions.width/2), height: (svg_dimensions.height)/2},
 		scale = 165;//projection scale
+
+	d3.selection.prototype.moveToFront = function() {
+	  return this.each(function(){
+	    this.parentNode.appendChild(this);
+	  });
+	};
 		
 	var radius = d3.scale.sqrt() //Used to scale the size of proportional circles on the map.
 	    .domain([30, 34250])
 	    .range([2,scale/5.5]);
 		
 	// X Scales
-	var format = d3.time.format('%Y');
-	var dates = getDates().map(function(d) {
-	    return d3.time.format("%Y").parse(d);
-	});
-	
-	function getDates() {
-    	return ["-8000","2010"] 
-	}
-	var time_scale = d3.time.scale()
-	    .domain(d3.extent(dates))
-	    .nice(d3.time.year)
+	var parseDate = d3.time.format("%Y").parse;
+
+	var time_scale = d3.scale.linear() // did not use d3.time.scale() to facilitate the use of BC dates
 	    .range([margins.left,chart_dimensions.width]);
 	
-	var chart_years_scale = d3.scale.linear()
-		.domain([-8000, 2010])
-		.range([margins.left,chart_dimensions.width]);
-	
-	var time_axis = d3.svg.axis().scale(time_scale);
+	var time_axis = d3.svg.axis()
+		.scale(time_scale)
+		.orient("bottom");
 	
 	// Y Scales
 	var pop_scale = d3.scale.linear()
-		.domain([0, 34250])
 		.range([chart_dimensions.height, 0]);
 	var pop_axis = d3.svg.axis()
 		.scale(pop_scale)
 		.orient("right");
+
+	var instances = d3.scale.linear();
 			
-	//General layout
+	// General layout ///////////////////////////////////////////////////
 	d3.select("body")
 		.append("svg")
 		  .attr("width", svg_dimensions.width)
 		  .attr("height", svg_dimensions.height)
 		    .attr("transform", "translate("+ margins.left +", "+margins.top+")");	
-	//Infos
-	var legend = d3.select("svg")
-					.append("g")
-					  .attr("class", "infos")
-					  .attr("width", infos_dimensions.width)
-					  .attr("height", infos_dimensions.height)
-					  .attr("transform", "translate("+(chart_dimensions.width+(chart_dimensions.width/4))+", "+(chart_dimensions.height/2)+")"); 
-	
-	legend.append("text").text("City").attr("x", 15).attr("y", 15);
-	legend.append("text").attr("class", "country_name").text("Country").attr("x", 15).attr("y", 35).style("font-size", "15px");
 		  		  
-	// Chart layout
+	// Chart layout /////////////////////////////////////////////////////
+    var line = d3.svg.line()
+    	.interpolate("basis")
+    	.x(function(d){return time_scale(d.date);})
+    	.y(function(d){return pop_scale(d.population);});
+
     var chart = d3.select("svg")
     	.append("g")
     	  .attr("class", "chart")
     	  .attr("width", chart_dimensions.width)
 		  .attr("height", chart_dimensions.height)
 		  	  .attr("transform", "translate("+0+", "+(svg_dimensions.height-chart_dimensions.height-margins.top-margins.bottom)+")");
-			  //.attr("transform", "translate("+(chart_dimensions.width-margins.right)+", "+(svg_dimensions.height-chart_dimensions.height-margins.top-margins.bottom)+")");
 
-   	chart.append("text").text("").attr("x", 15).attr("y", 30);
+	d3.tsv("data/chart/tcities.tsv", function(error, data){ // Chart layout based on mbostock's Multi-Series Line Chart
+		if (error) throw error;
 
-    chart.append("g")
-    	  .attr("class", "time axis")
-    	  .attr("transform","translate(0,"+chart_dimensions.height+")")
-		    .call(time_axis);
-			
-/*
-// y axis finally hidden, replaces by a hover tooltip on chart bars.
-	chart.append("g")
-		  .attr("class", "pop axis")
-		  .attr("transform", "translate("+chart_dimensions.width+",0)")
-		  	.call(pop_axis);
-*/
+		instances.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
+
+		var cities = instances.domain().map(function(name){
+			return {
+				name: name,
+				values: data.map(function(d){
+					return {date: d.date, population: +d[name]};
+				})
+			};
+		});
+	
+
+		time_scale.domain(d3.extent(data, function(d){return +d.date;}));
+		pop_scale.domain([
+			d3.min(cities, function(c){return d3.min(c.values, function(v){return v.population;});}),
+			d3.max(cities, function(c){return d3.max(c.values, function(v){return v.population;});})
+			]);
+
+	    chart.append("g")
+	    	  .attr("class", "time axis")
+	    	  .attr("transform","translate(0,"+chart_dimensions.height+")")
+			    .call(time_axis);
+
+		chart.append("g")
+			  .attr("class", "pop axis")
+			  .attr("transform", "translate(0,"+chart_dimensions.width+")")
+			  .call(pop_axis);
+
+		var city = chart.selectAll(".cityline")
+			.data(cities)
+		  .enter().append("g")
+		  	 .attr("class", "cityline");
+
+		city.append("path")
+			.attr("class", "line")
+			.attr("id",function(d){return "line"+d.name;})
+			.attr("d", function(d){return line(d.values);})
+			.on("mouseover",  function(d){
+				highlight_map(d.name);
+			});
+
+	});
 		
-	//Map layout and Display
+	//Map layout and Display ///////////////////////////////////////////////////
 	d3.select("svg")
 		.append("g")
 		  .attr("id", "map")
@@ -135,142 +158,64 @@
 			.enter()
 			  .append("circle")
 			  .attr("class", "city")
-			  .attr("id", function(d){return d.properties.geocode})
+			  .attr("id", function(d){return "circle"+d.properties.geocode})
+			  .attr("cityname", function(d){return d.properties.city})
+			  .attr("countryname", function(d){return d.properties.country})
 			  .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
 			  .attr("r", function(d) { return radius(d.properties.AD2010); })
 			  .on("mouseover", function(d){
-				  update_chart(d.properties.geocode);
+				  highlight_chart(d.properties.geocode);
 				  d3.select(".infos text").text(d.properties.city);
 				  d3.select(".country_name").text(d.properties.country);
 				  d3.selectAll(".city").style("stroke-width", "1px").style("stroke", "rgba(135, 24, 28, .9)");
 				  d3.select(this).style("stroke-width","4px").style("stroke", "rgba(135, 24, 28, .9)");
 			  })
 	};
-    
-	// Chart first layout
-	// d3.json("data/cities/1.json", function(data){
-	// 	d3.select(".chart")
-	// 		.append("g")
-	// 		  .attr("class", "chart_cities")
-	// 		.selectAll("rect")
-	// 		  .data(data)
-	// 		.enter()
-	// 		  .append("rect")
-	// 		    .attr("id", "rect_allcities")
-	// 		    .attr("class", "rect_allcities")
-	// 		    .attr("x", function(d){return chart_years_scale(d.year)})
-	// 		    .attr("y", function(d){return pop_scale(d.value)})
-	// 		    .attr("height", function(d){return chart_dimensions.height-pop_scale(d.value)})
-	// 		    .attr("width", chart_dimensions.rect_width)
-	// 		    .attr("transform", "translate("+-(chart_dimensions.rect_width/2)+",0)")
-	// 		  .on("mouseover", function(d){
-	// 		  	  d3.select(".chart text")
-	// 		  	  	.text(d.value)
-	// 		  	  	.attr("x", chart_years_scale(d.year))
-	// 		  	  	.attr("y", pop_scale(d.value));
-	// 		  	  d3.selectAll("#rect_allcities").style("stroke", "rgba(0, 30, 64, .5)")
-	// 			  d3.select(this).style("stroke", "red");
-	// 		  })
-	// 		  .on("mouseout", function(){
-	// 			  d3.select(".chart text")
-	// 		  	  	.text("");
-	// 		  });
-	// })
 
-// var line = d3.svg.line()
-//       		.x(function(d){return time_scale(d.time);})
-//       		.y(function(d){return count_scale(d.count);});
-      		
-//       		d3.select("svg")
-//         	.append("path")
-//         	  .attr("d", line(data.grand_central))
-//         	  .attr("class", "grand_central");
-//         d3.select("svg")
-//         	.append("path")
-//         	  .attr("d", line(data.times_square))
-//         	  .attr("class", "times_square");
+	// Infos ///////////////////////////////////////////////////////////////////
+	var legend = d3.select("svg")
+					.append("g")
+					  .attr("class", "infos")
+					  .attr("width", infos_dimensions.width)
+					  .attr("height", infos_dimensions.height)
+					  .attr("transform", "translate("+(chart_dimensions.width/2)+", "+(chart_dimensions.height/4)+")"); 
 	
-	d3.json("data/chart/cities_chart.json", function(data){
-			var line = d3.svg.line()
-            				.x(function(d){return chart_years_scale(d.year)})
-            				.y(function(d){return pop_scale(d.population)});	
+	legend.append("text").text("City").attr("x", 15).attr("y", 15);
+	legend.append("text").attr("class", "country_name").text("Country").attr("x", 15).attr("y", 35).style("font-size", "15px");
 
-            d3.select("svg")
-	        	.append("path")
-	        	  .attr("d", line(data.city1))
-	        	  .attr("class", "cities_chart");
-	        d3.select("svg")
-	        	.append("path")
-	        	  .attr("d", line(data.city2))
-	        	  .attr("class", "cities_chart");
-            
-   //      d3.select(".chart")
-   //          .append("g")
-   //            .attr("class", "line")
-			// .append('path')
-   //            .attr('d', line(data));
-	})
-
-
-	//Interactivity
-	function update_map(year){
-		console.log(year);
-		d3.json("data/cities3.json", function(cities){
-			d3.selectAll("circle")
-				.data(cities.features)
-				.transition().ease("linear")
-				.duration(500)
-			    .attr("r", function(d) { return radius(d.properties.population[year]); });
-			})
-	}
-	/*
-	function update_map(year){
-		console.log(year);
-		d3.json("data/years/y_"+year+".json", function(data){
-			d3.selectAll(".city")
-				.data(data)
-				.transition().ease("linear")
-				.duration(100)
-				  .attr("r", function(d){return radius(d.value); });
-				//.attr("d", path.pointRadius(function(d){alert("coucou");return radius(d.properties.population[10].value); }))
-			})
-	}
-*/
 	
-	function update_chart(id){
-		d3.json("data/cities/"+id+".json", function(data){
-			d3.selectAll("#rect_allcities")
-				.data(data)
-				.transition()
-				.duration(500)
-			      .attr("y", function(d){return pop_scale(d.value)})
-			      .attr("height", function(d){return chart_dimensions.height-pop_scale(d.value)})
-			      .attr("class", function(d){return d.src})
-		})
+	// Interactivity functions //////////////////////////////////////////////////////////
+	function highlight_map(id){
+		// Highlight in map the mouseovered city in graph.
+		d3.select("#circle"+id)
+			.transition()
+			.style("stroke-width", "10px");
+		// Get the name and country of highlighted city in graph to update the 'infos' section (using JQuery).
+		var cityname = $("#circle"+id).attr("cityname");
+		var countryname = $("#circle"+id).attr("countryname");
+		// update the 'info' section.
+		d3.select(".infos text").text(cityname);
+		d3.select(".country_name").text(countryname);
+
+		// d3.json("data/cities3.json", function(cities){
+		// 	d3.selectAll("circle")
+		// 		.data(cities.features)
+		// 		.transition().ease("linear")
+		// 		.duration(500)
+		// 	    .attr("r", function(d) { return radius(d.properties.population[year]); });
+		// 	})
+	}
+	
+	function highlight_chart(id){
+		d3.selectAll(".line")
+			.transition()
+			.style("stroke-width", ".2px")
+			.style("stroke", "rgba(135, 24, 28, .4)");
+		d3.select("#line"+id)
+			.transition()
+			.style("stroke-width", "3px")
+			.style("stroke", "rgba(0, 0, 0, 1)");
 	}	
-	
-	
-	d3.selectAll(".tick.major > text")
-		.on("mouseover", function(){
-				var year = this.innerHTML;
-				update_map(year)
-			});
-	
-/*
-	function draw_chart_line(data, id){
-		var line = d3.svg.line()
-			.x(function(d){return time_scale(d.properties.population.year)})
-			.y(function(d){return pop_scale(d.properties.population.value)})
-			.interpolate("linear");
-		var g = d3.select(".chart")
-			.append("g")
-			attr("id", id+"_path");
-		g.append("path")
-			.attr("d", line(data));
-	}
-*/
-
-    
 </script>
 </body>
 </html>

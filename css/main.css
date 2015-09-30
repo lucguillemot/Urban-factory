@@ -76,8 +76,8 @@ svg {
 }
 .line {
 	fill:none;
-	stroke-width:1px;
-	stroke:rgba(135, 24, 28, .9);
+	stroke-width:.2px;
+	stroke:rgba(135, 24, 28, .4);
 }
 .countries {
 	fill: rgba(0, 30, 64, .001);
