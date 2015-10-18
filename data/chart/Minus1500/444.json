@@ -1,0 +1,52 @@
+[
+  {
+    "code": 444,
+    "year": 1000,
+    "population": 10
+  },
+  {
+    "code": 444,
+    "year": 1050,
+    "population": 12.5
+  },
+  {
+    "code": 444,
+    "year": 1100,
+    "population": 15
+  },
+  {
+    "code": 444,
+    "year": 1150,
+    "population": 17.5
+  },
+  {
+    "code": 444,
+    "year": 1200,
+    "population": 20
+  },
+  {
+    "code": 444,
+    "year": 1250,
+    "population": 25
+  },
+  {
+    "code": 444,
+    "year": 1300,
+    "population": 30
+  },
+  {
+    "code": 444,
+    "year": 1350,
+    "population": 25.5
+  },
+  {
+    "code": 444,
+    "year": 1400,
+    "population": 21
+  },
+  {
+    "code": 444,
+    "year": 1450,
+    "population": 25.5
+  }
+]

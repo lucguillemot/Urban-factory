@@ -1,0 +1,52 @@
+[
+  {
+    "code": 809,
+    "year": 1000,
+    "population": 200
+  },
+  {
+    "code": 809,
+    "year": 1050,
+    "population": 162.5
+  },
+  {
+    "code": 809,
+    "year": 1100,
+    "population": 125
+  },
+  {
+    "code": 809,
+    "year": 1150,
+    "population": 140
+  },
+  {
+    "code": 809,
+    "year": 1200,
+    "population": 150
+  },
+  {
+    "code": 809,
+    "year": 1250,
+    "population": 125
+  },
+  {
+    "code": 809,
+    "year": 1300,
+    "population": 90
+  },
+  {
+    "code": 809,
+    "year": 1350,
+    "population": 90
+  },
+  {
+    "code": 809,
+    "year": 1400,
+    "population": 0
+  },
+  {
+    "code": 809,
+    "year": 1450,
+    "population": 0
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "code": 20,
+    "year": 1500,
+    "population": 200
+  },
+  {
+    "code": 20,
+    "year": 1525,
+    "population": 430
+  },
+  {
+    "code": 20,
+    "year": 1550,
+    "population": 660
+  },
+  {
+    "code": 20,
+    "year": 1575,
+    "population": 680
+  },
+  {
+    "code": 20,
+    "year": 1600,
+    "population": 700
+  },
+  {
+    "code": 20,
+    "year": 1625,
+    "population": 700
+  },
+  {
+    "code": 20,
+    "year": 1650,
+    "population": 700
+  },
+  {
+    "code": 20,
+    "year": 1675,
+    "population": 700
+  },
+  {
+    "code": 20,
+    "year": 1700,
+    "population": 700
+  },
+  {
+    "code": 20,
+    "year": 1725,
+    "population": 662.5
+  },
+  {
+    "code": 20,
+    "year": 1750,
+    "population": 625
+  },
+  {
+    "code": 20,
+    "year": 1775,
+    "population": 597.5
+  },
+  {
+    "code": 20,
+    "year": 1800,
+    "population": 570
+  },
+  {
+    "code": 20,
+    "year": 1825,
+    "population": 675
+  },
+  {
+    "code": 20,
+    "year": 1850,
+    "population": 785
+  },
+  {
+    "code": 20,
+    "year": 1875,
+    "population": 873
+  },
+  {
+    "code": 20,
+    "year": 1900,
+    "population": 1050
+  },
+  {
+    "code": 20,
+    "year": 1925,
+    "population": 817
+  },
+  {
+    "code": 20,
+    "year": 1950,
+    "population": 983
+  },
+  {
+    "code": 20,
+    "year": 1975,
+    "population": 3200
+  },
+  {
+    "code": 20,
+    "year": 2000,
+    "population": 8832
+  },
+  {
+    "code": 20,
+    "year": 2010,
+    "population": 11100
+  }
+]

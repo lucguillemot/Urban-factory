@@ -1,0 +1,52 @@
+[
+  {
+    "code": 451,
+    "year": 1000,
+    "population": 60
+  },
+  {
+    "code": 451,
+    "year": 1050,
+    "population": 53.3333
+  },
+  {
+    "code": 451,
+    "year": 1100,
+    "population": 46.6667
+  },
+  {
+    "code": 451,
+    "year": 1150,
+    "population": 40
+  },
+  {
+    "code": 451,
+    "year": 1200,
+    "population": 0
+  },
+  {
+    "code": 451,
+    "year": 1250,
+    "population": 0
+  },
+  {
+    "code": 451,
+    "year": 1300,
+    "population": 0
+  },
+  {
+    "code": 451,
+    "year": 1350,
+    "population": 0
+  },
+  {
+    "code": 451,
+    "year": 1400,
+    "population": 0
+  },
+  {
+    "code": 451,
+    "year": 1450,
+    "population": 0
+  }
+]

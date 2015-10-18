@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1876,
+    "year": 0,
+    "population": 60
+  },
+  {
+    "code": 1876,
+    "year": 100,
+    "population": 54.6667
+  },
+  {
+    "code": 1876,
+    "year": 200,
+    "population": 49.3333
+  },
+  {
+    "code": 1876,
+    "year": 300,
+    "population": 44
+  },
+  {
+    "code": 1876,
+    "year": 400,
+    "population": 0
+  },
+  {
+    "code": 1876,
+    "year": 500,
+    "population": 0
+  },
+  {
+    "code": 1876,
+    "year": 600,
+    "population": 0
+  },
+  {
+    "code": 1876,
+    "year": 700,
+    "population": 0
+  },
+  {
+    "code": 1876,
+    "year": 800,
+    "population": 0
+  },
+  {
+    "code": 1876,
+    "year": 900,
+    "population": 0
+  }
+]

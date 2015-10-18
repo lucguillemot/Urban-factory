@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1560,
+    "year": 0,
+    "population": 0
+  },
+  {
+    "code": 1560,
+    "year": 100,
+    "population": 0
+  },
+  {
+    "code": 1560,
+    "year": 200,
+    "population": 0
+  },
+  {
+    "code": 1560,
+    "year": 300,
+    "population": 50
+  },
+  {
+    "code": 1560,
+    "year": 400,
+    "population": 50
+  },
+  {
+    "code": 1560,
+    "year": 500,
+    "population": 50
+  },
+  {
+    "code": 1560,
+    "year": 600,
+    "population": 47.6667
+  },
+  {
+    "code": 1560,
+    "year": 700,
+    "population": 45.3333
+  },
+  {
+    "code": 1560,
+    "year": 800,
+    "population": 43
+  },
+  {
+    "code": 1560,
+    "year": 900,
+    "population": 100
+  }
+]

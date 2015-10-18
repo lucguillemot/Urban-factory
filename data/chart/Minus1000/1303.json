@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1303,
+    "year": 0,
+    "population": 0
+  },
+  {
+    "code": 1303,
+    "year": 100,
+    "population": 0
+  },
+  {
+    "code": 1303,
+    "year": 200,
+    "population": 0
+  },
+  {
+    "code": 1303,
+    "year": 300,
+    "population": 47
+  },
+  {
+    "code": 1303,
+    "year": 400,
+    "population": 51
+  },
+  {
+    "code": 1303,
+    "year": 500,
+    "population": 55
+  },
+  {
+    "code": 1303,
+    "year": 600,
+    "population": 70
+  },
+  {
+    "code": 1303,
+    "year": 700,
+    "population": 61.5
+  },
+  {
+    "code": 1303,
+    "year": 800,
+    "population": 53
+  },
+  {
+    "code": 1303,
+    "year": 900,
+    "population": 47
+  }
+]

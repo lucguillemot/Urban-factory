@@ -1,0 +1,52 @@
+[
+  {
+    "code": 48,
+    "year": 1000,
+    "population": 63
+  },
+  {
+    "code": 48,
+    "year": 1050,
+    "population": 63.5
+  },
+  {
+    "code": 48,
+    "year": 1100,
+    "population": 64
+  },
+  {
+    "code": 48,
+    "year": 1150,
+    "population": 71
+  },
+  {
+    "code": 48,
+    "year": 1200,
+    "population": 80
+  },
+  {
+    "code": 48,
+    "year": 1250,
+    "population": 80
+  },
+  {
+    "code": 48,
+    "year": 1300,
+    "population": 84
+  },
+  {
+    "code": 48,
+    "year": 1350,
+    "population": 90
+  },
+  {
+    "code": 48,
+    "year": 1400,
+    "population": 90
+  },
+  {
+    "code": 48,
+    "year": 1450,
+    "population": 65
+  }
+]

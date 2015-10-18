@@ -17,10 +17,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-85.04956551900410489</xmin>
-            <ymin>-47.8488265646045221</ymin>
-            <xmax>2.49372922183850676</xmax>
-            <ymax>24.54274408647687267</ymax>
+            <xmin>-166.1954550000000097</xmin>
+            <ymin>-48.64095500000000527</ymin>
+            <xmax>183.97765499999999861</xmax>
+            <ymax>67.31075500000001455</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -149,278 +149,278 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OBJECTID">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OBJECTID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="GEOCODE">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="GEOCODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="PAYS">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PAYS">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="VILLE">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="VILLE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="lat">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="lat">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="long">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="long">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_ran">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_ran">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_cou">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_cou">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_cit">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_cit">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC8">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC8">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC7">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC7">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC6">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC6">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_1">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_1">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC5">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC5">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC4">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC4">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC3">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC3">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_2">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_2">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_3">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_3">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_4">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_4">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_5">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_5">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_6">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_6">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC2">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC2">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_7">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_7">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_8">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_8">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B_9">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B_9">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B10">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B10">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B11">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B11">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_BC1">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_BC1">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B12">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B12">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B13">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B13">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B14">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B14">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B15">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B15">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B16">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B16">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B17">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B17">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B18">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B18">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_B19">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_B19">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_AD1">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_AD1">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_AD3">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_AD3">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_AD5">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_AD5">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_AD6">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_AD6">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_AD8">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_AD8">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_AD9">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_AD9">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_1">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_1">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_2">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_2">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_3">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_3">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_4">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_4">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_5">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_5">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_6">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_6">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_7">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_7">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_8">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_8">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A_9">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A_9">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A10">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A10">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A11">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A11">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A12">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A12">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A13">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A13">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A14">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A14">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A15">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A15">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A16">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A16">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A17">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A17">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A18">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A18">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A19">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A19">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A20">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A20">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A21">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A21">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A22">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A22">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A23">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A23">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A24">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A24">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A25">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A25">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A26">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A26">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A27">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A27">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A28">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A28">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A29">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A29">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A30">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A30">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A31">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A31">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A32">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A32">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A33">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A33">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A34">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A34">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A35">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A35">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A36">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A36">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A37">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A37">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A38">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A38">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A39">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A39">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A40">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A40">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A41">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A41">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A42">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A42">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A43">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A43">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A44">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A44">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_AD2">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_AD2">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A45">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A45">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="cities_A46">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="cities_A46">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -428,7 +428,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>cities_geo20150911161913924</id>
-            <datasource>file:./cities_geo.csv?type=csv&amp;xField=long&amp;yField=lat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+            <datasource>file:../cities_geo.csv?type=csv&amp;xField=long&amp;yField=lat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -448,7 +448,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">delimitedtext</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE("geocode", '&lt;NULL>')</previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -504,269 +504,269 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="geocode">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="code">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="rank">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="rank">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="country">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="country">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="city">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="city">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC8000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC8000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC7000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC7000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC6500">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC6500">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC6000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC6000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC5000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC5000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC4000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC4000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC3800">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC3800">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC3700">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC3700">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC3600">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC3600">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC3500">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC3500">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC3300">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC3300">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC3000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC3000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC2800">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC2800">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC2500">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC2500">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC2400">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC2400">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC2300">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC2300">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC2250">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC2250">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC2000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC2000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC1800">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC1800">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC1600">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC1600">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC1360">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC1360">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC1200">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC1200">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC1000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC1000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC800">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC800">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC650">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC650">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC430">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC430">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="BC200">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BC200">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD100">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD100">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD361">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD361">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD500">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD500">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD622">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD622">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD800">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD800">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD900">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD900">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1100">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1100">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1150">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1150">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1200">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1200">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1250">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1250">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1300">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1300">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1350">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1350">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1400">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1400">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1450">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1450">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1500">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1500">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1550">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1550">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1575">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1575">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1600">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1600">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1650">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1650">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1700">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1700">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1750">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1750">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1790">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1790">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1800">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1800">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1810">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1810">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1820">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1820">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1825">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1825">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1830">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1830">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1840">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1840">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1850">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1850">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1860">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1860">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1870">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1870">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1875">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1875">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1880">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1880">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1890">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1890">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1900">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1900">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1910">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1910">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1914">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1914">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1920">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1920">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1925">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1925">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1930">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1930">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1940">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1940">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1950">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1950">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1960">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1960">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1970">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1970">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1975">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1975">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1980">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1980">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1990">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1990">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1996">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1996">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD1998">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD1998">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD2000">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD2000">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD2005">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD2005">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AD2010">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AD2010">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="lat">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="lat">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="long">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="long">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1006,10 +1006,10 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="VILLE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="lat">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="lat">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="long">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="long">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>

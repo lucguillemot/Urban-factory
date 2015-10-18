@@ -1,0 +1,52 @@
+[
+  {
+    "code": 84,
+    "year": 0,
+    "population": 65
+  },
+  {
+    "code": 84,
+    "year": 100,
+    "population": 95
+  },
+  {
+    "code": 84,
+    "year": 200,
+    "population": 75
+  },
+  {
+    "code": 84,
+    "year": 300,
+    "population": 55
+  },
+  {
+    "code": 84,
+    "year": 400,
+    "population": 61.5
+  },
+  {
+    "code": 84,
+    "year": 500,
+    "population": 68
+  },
+  {
+    "code": 84,
+    "year": 600,
+    "population": 73.3333
+  },
+  {
+    "code": 84,
+    "year": 700,
+    "population": 78.6667
+  },
+  {
+    "code": 84,
+    "year": 800,
+    "population": 84
+  },
+  {
+    "code": 84,
+    "year": 900,
+    "population": 87
+  }
+]

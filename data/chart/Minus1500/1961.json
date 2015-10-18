@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1961,
+    "year": 1000,
+    "population": 45
+  },
+  {
+    "code": 1961,
+    "year": 1050,
+    "population": 50
+  },
+  {
+    "code": 1961,
+    "year": 1100,
+    "population": 55
+  },
+  {
+    "code": 1961,
+    "year": 1150,
+    "population": 60
+  },
+  {
+    "code": 1961,
+    "year": 1200,
+    "population": 70
+  },
+  {
+    "code": 1961,
+    "year": 1250,
+    "population": 90
+  },
+  {
+    "code": 1961,
+    "year": 1300,
+    "population": 110
+  },
+  {
+    "code": 1961,
+    "year": 1350,
+    "population": 85
+  },
+  {
+    "code": 1961,
+    "year": 1400,
+    "population": 110
+  },
+  {
+    "code": 1961,
+    "year": 1450,
+    "population": 100
+  }
+]

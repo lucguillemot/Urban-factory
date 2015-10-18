@@ -1,0 +1,52 @@
+[
+  {
+    "code": 422,
+    "year": 0,
+    "population": 0
+  },
+  {
+    "code": 422,
+    "year": 100,
+    "population": 35
+  },
+  {
+    "code": 422,
+    "year": 200,
+    "population": 38.5
+  },
+  {
+    "code": 422,
+    "year": 300,
+    "population": 42
+  },
+  {
+    "code": 422,
+    "year": 400,
+    "population": 41.3333
+  },
+  {
+    "code": 422,
+    "year": 500,
+    "population": 40.6667
+  },
+  {
+    "code": 422,
+    "year": 600,
+    "population": 40
+  },
+  {
+    "code": 422,
+    "year": 700,
+    "population": 43.3333
+  },
+  {
+    "code": 422,
+    "year": 800,
+    "population": 46.6667
+  },
+  {
+    "code": 422,
+    "year": 900,
+    "population": 50
+  }
+]

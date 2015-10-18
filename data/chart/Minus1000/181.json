@@ -1,0 +1,52 @@
+[
+  {
+    "code": 181,
+    "year": 0,
+    "population": 350
+  },
+  {
+    "code": 181,
+    "year": 100,
+    "population": 68
+  },
+  {
+    "code": 181,
+    "year": 200,
+    "population": 109
+  },
+  {
+    "code": 181,
+    "year": 300,
+    "population": 150
+  },
+  {
+    "code": 181,
+    "year": 400,
+    "population": 134.6
+  },
+  {
+    "code": 181,
+    "year": 500,
+    "population": 119.2
+  },
+  {
+    "code": 181,
+    "year": 600,
+    "population": 103.8
+  },
+  {
+    "code": 181,
+    "year": 700,
+    "population": 88.4
+  },
+  {
+    "code": 181,
+    "year": 800,
+    "population": 73
+  },
+  {
+    "code": 181,
+    "year": 900,
+    "population": 0
+  }
+]

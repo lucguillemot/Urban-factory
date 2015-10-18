@@ -1,0 +1,52 @@
+[
+  {
+    "code": 695,
+    "year": 1000,
+    "population": 25
+  },
+  {
+    "code": 695,
+    "year": 1050,
+    "population": 26.25
+  },
+  {
+    "code": 695,
+    "year": 1100,
+    "population": 27.5
+  },
+  {
+    "code": 695,
+    "year": 1150,
+    "population": 28.75
+  },
+  {
+    "code": 695,
+    "year": 1200,
+    "population": 30
+  },
+  {
+    "code": 695,
+    "year": 1250,
+    "population": 23.5
+  },
+  {
+    "code": 695,
+    "year": 1300,
+    "population": 17
+  },
+  {
+    "code": 695,
+    "year": 1350,
+    "population": 13
+  },
+  {
+    "code": 695,
+    "year": 1400,
+    "population": 9
+  },
+  {
+    "code": 695,
+    "year": 1450,
+    "population": 11
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "code": 407,
+    "year": 1000,
+    "population": 40
+  },
+  {
+    "code": 407,
+    "year": 1050,
+    "population": 42.5
+  },
+  {
+    "code": 407,
+    "year": 1100,
+    "population": 45
+  },
+  {
+    "code": 407,
+    "year": 1150,
+    "population": 60
+  },
+  {
+    "code": 407,
+    "year": 1200,
+    "population": 70
+  },
+  {
+    "code": 407,
+    "year": 1250,
+    "population": 75
+  },
+  {
+    "code": 407,
+    "year": 1300,
+    "population": 80
+  },
+  {
+    "code": 407,
+    "year": 1350,
+    "population": 90
+  },
+  {
+    "code": 407,
+    "year": 1400,
+    "population": 65
+  },
+  {
+    "code": 407,
+    "year": 1450,
+    "population": 65
+  }
+]

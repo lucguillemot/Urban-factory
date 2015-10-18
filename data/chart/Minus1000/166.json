@@ -1,0 +1,52 @@
+[
+  {
+    "code": 166,
+    "year": 0,
+    "population": 33
+  },
+  {
+    "code": 166,
+    "year": 100,
+    "population": 35.3333
+  },
+  {
+    "code": 166,
+    "year": 200,
+    "population": 37.6667
+  },
+  {
+    "code": 166,
+    "year": 300,
+    "population": 40
+  },
+  {
+    "code": 166,
+    "year": 400,
+    "population": 45
+  },
+  {
+    "code": 166,
+    "year": 500,
+    "population": 50
+  },
+  {
+    "code": 166,
+    "year": 600,
+    "population": 50
+  },
+  {
+    "code": 166,
+    "year": 700,
+    "population": 57.5
+  },
+  {
+    "code": 166,
+    "year": 800,
+    "population": 65
+  },
+  {
+    "code": 166,
+    "year": 900,
+    "population": 62.7143
+  }
+]

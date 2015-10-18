@@ -1,0 +1,52 @@
+[
+  {
+    "code": 257,
+    "year": 1000,
+    "population": 20
+  },
+  {
+    "code": 257,
+    "year": 1050,
+    "population": 20.5
+  },
+  {
+    "code": 257,
+    "year": 1100,
+    "population": 21
+  },
+  {
+    "code": 257,
+    "year": 1150,
+    "population": 21.5
+  },
+  {
+    "code": 257,
+    "year": 1200,
+    "population": 22
+  },
+  {
+    "code": 257,
+    "year": 1250,
+    "population": 21
+  },
+  {
+    "code": 257,
+    "year": 1300,
+    "population": 20
+  },
+  {
+    "code": 257,
+    "year": 1350,
+    "population": 26.5
+  },
+  {
+    "code": 257,
+    "year": 1400,
+    "population": 33
+  },
+  {
+    "code": 257,
+    "year": 1450,
+    "population": 41.5
+  }
+]

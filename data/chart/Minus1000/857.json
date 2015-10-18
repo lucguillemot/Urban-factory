@@ -1,0 +1,52 @@
+[
+  {
+    "code": 857,
+    "year": 0,
+    "population": 0
+  },
+  {
+    "code": 857,
+    "year": 100,
+    "population": 42
+  },
+  {
+    "code": 857,
+    "year": 200,
+    "population": 42.75
+  },
+  {
+    "code": 857,
+    "year": 300,
+    "population": 43.5
+  },
+  {
+    "code": 857,
+    "year": 400,
+    "population": 44.25
+  },
+  {
+    "code": 857,
+    "year": 500,
+    "population": 45
+  },
+  {
+    "code": 857,
+    "year": 600,
+    "population": 48
+  },
+  {
+    "code": 857,
+    "year": 700,
+    "population": 52.5
+  },
+  {
+    "code": 857,
+    "year": 800,
+    "population": 57
+  },
+  {
+    "code": 857,
+    "year": 900,
+    "population": 71.3333
+  }
+]

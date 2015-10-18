@@ -44,20 +44,10 @@
 }
 
 body {
-	background-color: rgba(0, 30, 64, .1);
- 	color:rgba(0, 30, 64, 1);
+	background-color: rgba(20, 20, 45, 1);
 	font-family:'cmu_typewriter_textregular';
 	font-size: 30px;
 }
-svg {
-/* 	outline: 1px solid black; */
-	position: relative;
-}
-#map {
-/* 	outline: 1px solid blue; */
-
-}
-
 .title {
     font-size: 30px;
 }
@@ -66,64 +56,65 @@ svg {
     text-wrap:normal;
 }
 .infos text{
-		fill:rgba(0, 30, 64, 1);
+	fill:rgba(210, 210, 255, 1);
 }
 .country_name > text {
 	font-size: 15px:
 }
-.chart {
-/* 	outline: 1px solid red; */
+
+/*.time.axis {
+    fill: rgba(255, 255, 255, 1);
+      stroke-width: .5px;
+  stroke-dasharray: 2px;
+    font-size: 9px;
+}*/
+
+.time.axis path,.time.axis line {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+    cursor: crosshair;
 }
-.line {
-	fill:none;
-	stroke-width:.2px;
-	stroke:rgba(135, 24, 28, .4);
+.time.axis text {
+    fill: rgba(255, 255, 255, 1);
+    font-size: 6px;
+    display: none;
 }
+.tick.major line {
+    stroke-width:8px;
+    cursor: crosshair;
+    stroke:white;
+}
+
+.chart text {
+
+    fill:white;
+}
+
 .countries {
-	fill: rgba(0, 30, 64, .001);
-	stroke: rgba(0, 30, 64, .2);
+	fill: rgba(20, 50, 84, .5);
+    stroke-width:1px;
+	stroke: rgba(40, 70, 104, 1);
 }
 
 .citycircle {
 /* 	fill: #FEF3CD; */
-	fill: rgba(210, 80, 89, .1);
-	stroke: rgba(135, 24, 28, .4);
+/*	fill: rgba(210, 210, 255, .1 */
+    fill: rgba(255, 255, 255, .3);
+	stroke: rgba(210, 210, 255, 1);
 	cursor: crosshair;
+    stroke-width:.5px;
 }
-/*
-.city:hover {
-	stroke: rgba(250, 230, 230, 1);
-	stroke-width: 7px;
-	fill: rgba(0, 30, 64, .9);
+
+.cityrectSup1500,.cityrectMinus1500,.cityrectMinus1000,.cityrectBC {
+    fill: rgba(255, 255, 255, 1);
 }
-*/
-.axis path {
+
+/*axis path {
 	fill:none;
 	stroke:rgba(0, 30, 64, 1);
 }
 .axis {
 	font-size:8pt;
 }
-.tick > line {
-	fill:rgba(0, 30, 64, 1);
-}
-.rect_allcities {
-	fill: rgba(0, 30, 64, 1);
-}
-.tick.major > text {fill:rgba(0, 30, 64, 1); text-anchor:middle; dominant-baseline:central;}
-.tick.major > text:hover {
-	font-size: 20px;
-	font-family: 'cmu_typewriter_textbold';
-	cursor: crosshair;
-}
-
-/* SOURCES COLORS */
-.CHD {
-	fill:rgba(0, 30, 64, 1);
-}
-.IHS {
-	fill:rgba(213, 110, 78, 1);
-}
-.BAI {
-	fill:rgba(72, 64, 135, 1);
-}
+*/

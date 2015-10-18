@@ -1,0 +1,52 @@
+[
+  {
+    "code": 69,
+    "year": 0,
+    "population": 400
+  },
+  {
+    "code": 69,
+    "year": 100,
+    "population": 80
+  },
+  {
+    "code": 69,
+    "year": 200,
+    "population": 80
+  },
+  {
+    "code": 69,
+    "year": 300,
+    "population": 80
+  },
+  {
+    "code": 69,
+    "year": 400,
+    "population": 87.5
+  },
+  {
+    "code": 69,
+    "year": 500,
+    "population": 95
+  },
+  {
+    "code": 69,
+    "year": 600,
+    "population": 400
+  },
+  {
+    "code": 69,
+    "year": 700,
+    "population": 500
+  },
+  {
+    "code": 69,
+    "year": 800,
+    "population": 600
+  },
+  {
+    "code": 69,
+    "year": 900,
+    "population": 500
+  }
+]

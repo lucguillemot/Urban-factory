@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1470,
+    "year": 0,
+    "population": 55
+  },
+  {
+    "code": 1470,
+    "year": 100,
+    "population": 52.6667
+  },
+  {
+    "code": 1470,
+    "year": 200,
+    "population": 50.3333
+  },
+  {
+    "code": 1470,
+    "year": 300,
+    "population": 48
+  },
+  {
+    "code": 1470,
+    "year": 400,
+    "population": 0
+  },
+  {
+    "code": 1470,
+    "year": 500,
+    "population": 0
+  },
+  {
+    "code": 1470,
+    "year": 600,
+    "population": 0
+  },
+  {
+    "code": 1470,
+    "year": 700,
+    "population": 0
+  },
+  {
+    "code": 1470,
+    "year": 800,
+    "population": 0
+  },
+  {
+    "code": 1470,
+    "year": 900,
+    "population": 0
+  }
+]

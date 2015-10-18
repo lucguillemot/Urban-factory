@@ -1,0 +1,52 @@
+[
+  {
+    "code": 1882,
+    "year": 0,
+    "population": 0
+  },
+  {
+    "code": 1882,
+    "year": 100,
+    "population": 45
+  },
+  {
+    "code": 1882,
+    "year": 200,
+    "population": 67.5
+  },
+  {
+    "code": 1882,
+    "year": 300,
+    "population": 90
+  },
+  {
+    "code": 1882,
+    "year": 400,
+    "population": 107.5
+  },
+  {
+    "code": 1882,
+    "year": 500,
+    "population": 125
+  },
+  {
+    "code": 1882,
+    "year": 600,
+    "population": 60
+  },
+  {
+    "code": 1882,
+    "year": 700,
+    "population": 0
+  },
+  {
+    "code": 1882,
+    "year": 800,
+    "population": 0
+  },
+  {
+    "code": 1882,
+    "year": 900,
+    "population": 0
+  }
+]

@@ -1,0 +1,126 @@
+# Interpolate missing data, transpose the data frame &
+# export to TSV file (for MULTILINE chart layout) &
+# re-export the CSV file with interpolated values
+# to create the GeoJSON file with QGIS
+# and create a set a json files used in the BARCHART layout.
+library(dplyr)
+library(reshape2)
+library(jsonlite)
+library(zoo)
+# load data
+c<-read.csv("data/selectedDates_cities_geo.csv") #The file has been preformatted (to include BC dates to be interpolated)
+names <- as.vector(c$city)
+country <- c$country
+geocode <- c$code
+latitude <- c$lat
+longitude <- c$long
+
+# Reorder the columns to have
+# all non-numeric columns at the beginning
+c <- c[,c(1,2,3,82,83,4:81)]
+years <- colnames(c)
+# Transpose all numeric values of the data frame
+# (i.e. not the first 5 columns)
+tc <- as.data.frame(t(c[,-1:-5]))
+# Add the names to the columns
+colnames(tc) <- names
+
+## OLD ## tc = setNames(data.frame(t(c[,-1])), c[,1])
+
+# Change the rownames to use the dates as
+# index for the interpolation
+rownames(tc)<-sub("BC", "-", rownames(tc)) 
+rownames(tc)<-sub("AD", "", rownames(tc))
+rownames(tc)<-as.numeric(rownames(tc))
+
+
+# Now we have only the data on which we
+# will perform the interpolation.
+# Find columns with at least two non-NA values
+idx <- colSums(!is.na(tc)) > 1
+# Perform the interpolation on columns with
+# at least two non-NA values
+tc[,idx] <- na.approx(tc[,idx], 
+                      x=rownames(tc),
+                      na.rm=FALSE, 
+                      maxgap = 4)
+
+
+colnames(tc) <- geocode
+tc[is.na(tc)] <- as.integer(0)
+
+## Delete years that will not be used in the visualization
+yearsToKeep <- c("country","city","lat","long","BC8000","BC7500","BC7000","BC6500","BC6000","BC5500","BC5000","BC4500","BC4000","BC3500","BC3000","BC2500","BC2000","BC1500","BC1000","BC500","AD0","AD100","AD200","AD300","AD400","AD500","AD600","AD700","AD800","AD900","AD1000","AD1050","AD1100","AD1150","AD1200","AD1250","AD1300","AD1350","AD1400","AD1450","AD1500","AD1525","AD1550","AD1575","AD1600","AD1625","AD1650","AD1675","AD1700","AD1725","AD1750","AD1775","AD1800","AD1825","AD1850","AD1875","AD1900","AD1925","AD1950","AD1975","AD2000","AD2010")
+yearsToDrop <- c(1810,1820,1830,1840,1860,1870,1880,1890,1910,1914,1920,1930,1940,1960,1970,1980,1990,1996,1998,2005)
+tc<-tc[ !(rownames(tc) %in% yearsToDrop), ] 
+
+# Export to TSV for the chart layout
+write.table(tc, 
+            file="data/chart/tcities2.tsv", 
+            quote=FALSE, 
+            sep="\t", 
+            col.names = NA)
+
+## Transpose to the frame original layout
+ttc <- as.data.frame(t(tc)) # transpose
+# Retrieve the non numeric attribute values
+ttc$country <- country
+ttc$city <- names
+ttc$lat <- latitude
+ttc$long <- longitude
+# Reorder columns
+ttc <- ttc[,c(59,60,61,62,1:58)]
+# Add columns names (with years as character values)
+## remove the first character 
+## (the first column 'code' is a dimname)
+years <- years[-1]
+colnames(ttc) <- yearsToKeep
+
+# Export to CSV with the original Layout
+# Use in QGIS to create the GeoJSON file.
+write.csv(ttc,
+          file="data/interpol_cities_geo.csv")
+
+#############################
+## Create a set of json files used in the BARCHART layout.
+#remove useless columns
+ttc <- select(ttc, -(country:long))
+# Change the rownames to use the dates as index in D3
+colnames(ttc)<-sub("BC", "-", colnames(ttc)) 
+colnames(ttc)<-sub("AD", "", colnames(ttc))
+colnames(ttc)<-as.numeric(colnames(ttc))
+
+#'melt' the data
+melted <- melt(as.matrix(ttc), id.vars=c("row.names"), as.is = FALSE, variable.name="year", value.name = "population")
+
+#rename the columns
+colnames(melted) <- c("code","year", "population")
+str(melted)
+
+melted <- arrange(melted, code) # sort according to geocode
+
+## Create four groups of years (for the chart time scale)
+meltedBC<-subset(melted, year<0)
+meltedMinus1000<-subset(melted, year>-1 & year<1000)
+meltedMinus1500<-subset(melted, year>900 & year<1500)
+meltedSup1500<-subset(melted, year>1499)
+
+# split following code
+splittedBC <- split(meltedBC, meltedBC$code)
+splittedMinus1000 <- split(meltedMinus1000, meltedMinus1000$code)
+splittedMinus1500 <- split(meltedMinus1500, meltedMinus1500$code)
+splittedSup1500 <- split(meltedSup1500, meltedSup1500$code)
+
+# export to JSONs in 4 folders
+for (i in names(splittedBC)) {
+     write(toJSON(splittedBC[[i]], na="null", pretty=TRUE),file=paste("data/chart/BC/", i,".json", sep = ""))
+}
+for (i in names(splittedMinus1000)) {
+      write(toJSON(splittedMinus1000[[i]], na="null", pretty=TRUE),file=paste("data/chart/Minus1000/", i,".json", sep = ""))
+}
+for (i in names(splittedMinus1500)) {
+      write(toJSON(splittedMinus1500[[i]], na="null", pretty=TRUE),file=paste("data/chart/Minus1500/", i,".json", sep = ""))
+}
+for (i in names(splittedSup1500)) {
+      write(toJSON(splittedSup1500[[i]], na="null", pretty=TRUE),file=paste("data/chart/Sup1500/", i,".json", sep = ""))
+}

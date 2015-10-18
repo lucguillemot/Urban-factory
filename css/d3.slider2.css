@@ -5,8 +5,8 @@
 }
 
 .d3slider-rect-range {
-  fill: #eee;
-  stroke: #222;
+  fill: rgba(210, 210, 255, .4);
+  stroke:none;
 }
 
 .d3slider-rect-value {
@@ -34,7 +34,8 @@
 }
 
 .d3slider text {
-  font: 10px sans-serif;
+  fill: rgba(210, 210, 255, 1);
+  font-size: 10px;
 }
 
 .tick.minor text {
@@ -43,10 +44,11 @@
 
 .tick line {
   stroke-width: 1;
+  stroke: rgba(210, 210, 255, .6);
 }
 .tick.minor line {
   stroke-width: 1;
-  stroke: #bbb;
+  stroke: rgba(210, 210, 255, 1);
 }
 
 .dragger rect {
@@ -66,7 +68,7 @@
 }
 
 .dragger-inner {
-  fill: #B30424;
+  fill: rgba(210, 210, 255, 1);
   stroke: none;
 }
 
@@ -81,4 +83,10 @@
   z-index: 1;
 }
 
-
+/*.tick > line {
+  fill:rgba(0, 30, 64, 1);
+}*/
+.tick.major > text {
+    text-anchor:middle; 
+    dominant-baseline:central;
+}
